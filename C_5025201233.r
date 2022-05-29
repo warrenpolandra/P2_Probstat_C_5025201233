@@ -62,6 +62,8 @@ s2 <- 1.32
 #H1 : mu1 <> mu2
 
 #b
+tsum.test(xbar1, s1, n1, xbar2, s2, n2, alternative = "greater", 
+          mu = 0, var.equal = TRUE, conf.level = 0.95)
 
 #c
 a <- sqrt((((s1)^2)/n1)+(((s2)^2)/n2))
