@@ -1,12 +1,12 @@
-####number 1####
+#Nomor 1
 x <- as.vector(c(78,75,67,77,70,72,78,74,77))
 y <- as.vector(c(100,95,70,90,90,90,89,90,100))
 
-#a
+#a. Standar Deviasi
 z <- x-y;z
 stdev <- sd(z); stdev
 
-#b
+#b t (p-value)
 zbar <- mean(z); zbar
 n <- length(z)
 
@@ -14,11 +14,11 @@ tvalue <- zbar/(stdev/sqrt(n)); tvalue
 
 pval <- 2*pt(tvalue,df=n-1);pval
 
-#c
-#H0 = tidak ada pengaruh yang signifikan secara statistika dalam hal kadar 
-#saturasi oksigen , sebelum dan sesudah melakukan aktivitas ????
-#H1 = ada pengaruh yang signifikan secara statistika dalam hal kadar 
-#saturasi oksigen , sebelum dan sesudah melakukan aktivitas ????
+#c Kesimpulan
+# H0 = tidak ada pengaruh yang signifikan secara statistika dalam hal kadar 
+# saturasi oksigen , sebelum dan sesudah melakukan aktivitas A
+# H1 = ada pengaruh yang signifikan secara statistika dalam hal kadar 
+# saturasi oksigen , sebelum dan sesudah melakukan aktivitas A
 
 alpha <- 0.05
 
@@ -34,20 +34,20 @@ test <- function(alpha){
 
 test(0.05)
 
-####number 2####
+#Nomor 2
 zsum.test(mean.x=23500, sigma.x=3900, n.x=100, alternative = "greater",
             mu=20000, conf.level=0.95)
 #a
-#iya setuju karena pvalue < alpha maka tolak H0 dimana rata rata mobil < 20000
+# Setuju karena pvalue < alpha maka tolak H0 dimana rata rata mobil < 20000
 
 #b
-#nilai z = 8.9744
-#pvalue < 2.2e-16 -> sangat kecil dan udah pasti lebih kecil dari alpha 0.05
+# nilai z = 8.9744
+# pvalue < 2.2e-16 -> sangat kecil dan udah pasti lebih kecil dari alpha 0.05
 
 #c
-#pvalue < 2.2e-16 -> tolak h0 karena < alpha 0.05
+# pvalue < 2.2e-16 -> tolak h0 karena < alpha 0.05
 
-####number 3####
+#Nomor 3
 n1 <- 19
 xbar1 <- 3.64
 s1 <- 1.67
@@ -88,4 +88,6 @@ test(0.05)
 #karena gagal tolak H0 maka mu1 = mu2 dan tidak ada perbedaan pada rata ratanya
 #antara Bandung dan Bali
 
-#####number 4####
+#Nomor 4
+
+#Nomor 5
