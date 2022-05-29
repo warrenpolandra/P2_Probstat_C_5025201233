@@ -104,4 +104,6 @@ tolak H0 jika `zvalue > z_half_alpha` atau jika `-zvalue < -z_half_alpha`
 ### f. Kesimpulan
 karena hasil yang didapatkan adalah "gagal tolak H0" maka mu1 = mu2 dan tidak ada perbedaan pada rata-rata antara Bandung dan Bali, artinya rata-rata saham Bandung sama dengan rata-rata saham Bali
 
-## Nomor4
+## Nomor 4
+
+## Nomor 5
