@@ -75,7 +75,7 @@ z_half_alpha <- qnorm(1-(alpha/2))
 c(-z_half_alpha, z_half_alpha)
 
 #e
-#tolak H0 jika zvalue > z_half_alpha or -zvalue < -z_half_alpha
+#tolak H0 jika zvalue > z_half_alpha atau -zvalue < -z_half_alpha
 
 test <- function(alpha){
   if(abs(zvalue) > z_half_alpha){
